@@ -1,0 +1,423 @@
+
+.body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #fafafa;
+}
+
+.barraSuperior{
+    position: absolute;
+    width: 1440px;
+    height: 86px;
+    left: 0px;
+    top: 0px;
+
+    background: #00AEC1;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+.barra-user{
+    position: absolute;
+    width: 300px;
+    height: 49px;
+    left: 21px;
+    top: 19px;
+
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+.icon-User{
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    left: 0px;
+    top: 0px;
+}
+
+.nombre-usuario{
+    position: absolute;
+    width: 208px;
+    height: 35px;
+    left: 93px;
+    top: 4px;
+    
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;  
+}
+
+.boton-CerrarSesion{
+    position: absolute;
+    width: 300px;
+    height: 48px;
+    left: 1121px;
+    top: 19px;
+
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+
+#letra-CerrrarSesion{
+    position: absolute;
+    width: 234px;
+    height: 35px;
+    left: 1154px;
+    top: 26px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;     
+}
+
+.posicion-Logo{
+    position: absolute;
+    width: 201px;
+    height: 171px;
+    left: 619px;
+    top: 94px;
+}
+
+.farmacia{
+    /* Farmacias con descuento */
+    position: absolute;
+    left: 400px;
+    top: 230px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style:inherit;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #0CCAD8;
+}
+
+/*------------------------------------------------------------------------*/
+/*Diseño de rectagunlo que forma parte del cupon*/
+.rectagunlo-cupon{
+    position: absolute;
+    width: 171px;
+    height: 1035px;
+    background: #ABE4EB;
+    transform: rotate(-90deg);
+}
+
+/* Posiciones del rectagunlo que forma parte del cupong*/
+#posicion1-rectangulo-cupon{
+    left: 546px;
+    top: -40px;
+}
+
+#posicion2-rectangulo-cupon{
+    left: 546px;
+    top: 160px;
+}
+
+#posicion3-rectangulo-cupon{
+    left: 546px;
+    top: 360px;
+}
+/*---------------------------------------------------------------------------*/
+
+/*Diseño del logo de la farmacia*/
+.logo-farmacia{
+    position: absolute;
+    width: 435.06px;
+    height: 173px;
+
+}
+
+/*Posiciones del logo */
+#posicion1-logo-farmacia{
+    left: 114px;
+    top: 390px;
+}
+
+#posicion2-logo-farmacia{
+    left: 114px;
+    top: 592px;
+}
+
+#posicion3-logo-farmacia{
+    left: 114px;
+    top: 792px;
+}
+
+/*------------------------------------------------------------------------*/
+
+/*Linea vertical del cupon*/
+.lineavertical{
+    position: absolute;
+    width: 170px;
+    height: 0px;
+
+    border: 1px solid #000000;
+    transform: rotate(-90deg);
+}
+
+/*Posiciones*/
+#posicion1-linea{
+    left: 463px;
+    top: 477.1px;
+}
+
+#posicion2-linea{
+    left: 463px;
+    top: 677px;
+}
+
+#posicion3-linea{
+    left: 463px;
+    top: 877px;
+}
+/*--------------------------------------------------------------------------------------*/
+
+/*Ubicacion de la farmacia*/
+.gif-ubicacion-farmacia{
+    position: absolute;
+    width: 74px;
+    height: 55px;
+   
+}
+/*Posiciones*/
+
+#posicion1{
+    left: 40px;
+    top: 448px; 
+}
+
+#posicion2{
+    left: 40px;
+    top: 651px;    
+}
+#posicion3{
+    left: 40px;
+    top: 854px;   
+}
+/*------------------------------------------------------------------------*/
+
+/*Descuento*/
+.numero-descuento{
+    position: absolute;
+    width: 210px;
+    height: 168px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 185px;
+    line-height: 217px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+/*Posiciones*/
+#posicion-numero1{
+    left: 547px;
+    top: 250px;
+}
+
+#posicion-numero2{
+    left: 547px;
+    top: 450px;
+}
+
+#posicion-numero3{
+    left: 547px;
+    top: 650px;
+}
+
+/*---------------------------------------------------------------------------*/
+
+/*Diseño del logo %*/
+.diseño-porcentaje{
+    position: absolute;
+    width: 68px;
+    height: 67px;
+}
+
+/*posicion del %*/
+#poscion-porcentaje1{
+    left: 747px;
+    top: 394px;
+}
+
+#poscion-porcentaje2{
+    left: 747px;
+    top: 597px;
+}
+
+#poscion-porcentaje3{
+    left: 747px;
+    top: 800px;
+}
+/*-----------------------------------------------------------------------------------*/
+
+/*Diseño de ubicacion farmacia*/
+.ubicacion-farmacia{
+    /* Av. Rivadavia 18161, Morón, Provincia de Buenos Aires */
+    position: absolute;
+    width: 365px;
+    height: 26px;
+
+    font-family: Roboto mono;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+/*Posciones*/
+#posicion1-ubicacion{
+    left: 784px;
+    top: 480px;
+}
+
+#posicion2-ubicacion{
+    left: 784px;
+    top: 680px;
+}
+
+#posicion3-ubicacion{
+    left: 784px;
+    top: 880px;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*Diseño fecha de validacion*/
+.fecha-validacion{
+    position: absolute;
+    width: 341px;
+    height: 50px;
+
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+/*Posiciones*/
+#posicion1-fecha{
+    left: 889.5px;
+    top: 515px;
+}
+
+#posicion2-fecha{
+    left: 889.5px;
+    top: 715px;
+}
+
+#posicion3-fecha{
+    left: 889.5px;
+    top: 915px;
+}
+/*--------------------------------------------------------------------------------------------------*/
+
+/*Diseño obtener cupon*/
+.obtener-cupon{
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 1200px;
+    top: 436px;
+    background: #00AEC1;
+    border-radius: 25px;
+}
+
+/*Posiciones*/
+#posicion1-cupon{
+    position: absolute;
+    width: 166px;
+    height: 38px;
+    left: 1217px;
+    top: 447px;
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+#posicion2-cupon{
+    position: absolute;
+    width: 166px;
+    height: 38px;
+    left: 1217px;
+    top: 650px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+#posicion3-cupon{
+    position: absolute;
+    width: 166px;
+    height: 38px;
+    left: 1217px;
+    top: 853px;
+    
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+/*--------------------------------------------------------------------------------------------------*/

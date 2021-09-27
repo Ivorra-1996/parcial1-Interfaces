@@ -1,0 +1,222 @@
+
+.body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #FFFFFF;
+}
+
+.colorDelLogo{
+    position: absolute;
+    width: 900px;
+    height: 110px;
+    left: 289px;
+    top: 13px;
+
+    background: #00AEC1;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px 0px;
+}
+
+.titulo{
+    position: absolute;
+    width: 881px;
+    height: 120px;
+    left: 299px;
+    top: 8px;
+
+    font-family: Sansation Light;
+    font-style:italic;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 107px;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+}
+
+.subTitulo{
+    /* Provincia de Buenos Aires */
+    position: absolute;
+    width: 834px;
+    height: 120px;
+    left: 299px;
+    top: 119px;
+
+    font-family: Sansation Light;
+    font-style:italic;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #263746;
+}
+
+.doctora{
+    position: absolute;
+    width: 279px;
+    height: 602px;
+    left: 175px;
+    top: 244px;
+}
+
+.doctor{
+    position: absolute;
+    width: 253.42px;
+    height: 602px;
+    left: 999px;
+    top: 244px;
+}
+
+.user{
+    /* Usuario */
+    position: absolute;
+    width: 116px;
+    height: 27px;
+    left: 548px;
+    top: 296px;
+
+    font-family: Sansation Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+
+    color: #263746;
+}
+
+.cuadro-User{
+    /* Rectangle 4 */
+    position: absolute;
+    width: 360px;
+    height: 60px;
+    left: 540px;
+    top: 327px;
+
+    background: #E2E2E2;
+    border: 1px solid #090909;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.cuadro-pass{
+    position: absolute;
+    width: 360px;
+    height: 60px;
+    left: 540px;
+    top: 444px;
+
+    background: #E2E2E2;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.pass{
+    position: absolute;
+    width: 172px;
+    height: 27px;
+    left: 548px;
+    top: 413px;
+
+    font-family: Sansation Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.olvidaste-pass{
+    /* ¿Olvidaste tu contraseña? */
+    position: absolute;
+    width: 277px;
+    height: 36px;
+    left: 582px;
+    top: 550px;
+
+    font-family: Sansation Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+#iniciar-sesion{
+    position: absolute;
+    width: 146px;
+    height: 52px;
+    left: 80px;
+    top: -20px;
+    
+    font-family: Sansation Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #000000;
+}
+
+.botton-sesion{
+    font-family: Sansation Light;
+
+    position: absolute;
+    width: 300px;
+    height: 52px;
+    left: 570px;
+    top: 632px;
+
+    background: #00AEC1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 100px;
+
+    }
+
+.cuadro-derecho{
+    position: absolute;
+    width: 428px;
+    height: 647px;
+    left: 912px;
+    top: 219px;
+
+    background: #00AEC1;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 0px 100px 100px 0px;
+}
+
+.cuadro-izquierdo{
+    position: absolute;
+    width: 428px;
+    height: 647px;
+    left: 100px;
+    top: 219px;
+
+    background: #00AEC1;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px 0px 0px 100px;
+}
